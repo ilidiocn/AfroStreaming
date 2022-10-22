@@ -9,6 +9,7 @@
     "@testing-library/react-native": "^11.3.0",
     "expo": "^46.0.0",
     "expo-asset": "^8.6.1",
+    "gh-pages": "^4.0.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-native": "0.69.4",
@@ -28,12 +29,18 @@
     "@babel/core": "^7.18.6"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "expo start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "version": "1.0.0",
   "private": true,
-  "name": "afrostreaming"
+  "name": "afrostreaming",
+  "homepage": "https://ilidiocn.github.io/AfroStreaming"
 }
