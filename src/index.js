@@ -1,5 +1,8 @@
-
-import { AppRegistry } from 'react-native';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import App from '../App';
 
-AppRegistry.registerComponent('HelloWorld', () => App);
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
