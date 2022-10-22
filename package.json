@@ -30,9 +30,9 @@
     "gh-pages": "^4.0.0"
   },
   "scripts": {
+    "start": "expo start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "expo start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
