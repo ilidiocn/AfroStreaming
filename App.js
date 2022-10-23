@@ -93,4 +93,11 @@ export default function App(){
   );
 }
 
+/*
+ npm install react-native@0.69.6 --force
+ npm install react-native-gesture-handler@~2.5.0 --force
+ npm install react-native-safe-area-context@4.3.1 --force
+ npm install react-native-screens@~3.15.0 --force
+ npm install react-native-webview@11.23.0 --force
+*/
 

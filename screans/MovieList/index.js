@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useLayoutEffect } from 'react';
 import { View, Text } from 'react-native';
 import { Asset } from 'expo-asset';
 import { Feather } from '@expo/vector-icons';
-import { Assets as StackAssets } from '@react-navigation/stack';
+import { StackAssets } from '@react-navigation/stack';
 
 import Screen from '../../components/common/Screen';
 import Spinner from '../../components/common/Spinner';
